@@ -115,7 +115,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="form-group">
                             <label for="form-message" class="col-lg-2 control-label"><?php echo $config->get('fields.message'); ?></label>
                             <div class="col-lg-10">
-                                <textarea class="form-control" rows="3" id="form-message" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
+                                <textarea class="form-control" rows="5" id="form-message" style="resize:none" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
                             </div>
                         </div>
                         <div class="form-group">
