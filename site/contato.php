@@ -1,6 +1,6 @@
 <?php
 require_once './vendor/autoload.php';
-require 'navbar.php';
+require './navbar.php';
 
 $helperLoader = new SplClassLoader('Helpers', './vendor');
 $mailLoader   = new SplClassLoader('SimpleMail', './vendor');
