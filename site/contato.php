@@ -22,6 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message = stripslashes(trim($_POST['form-message']));
     $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
+    $captchaResult = $_POST["form-captcha-result"];
+	$firstNumber = $_POST["firstNumber"];
+	$secondNumber = $_POST["secondNumber"];
+    $checkTotal = $firstNumber + $secondNumber;
+
     if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
         die("Header injection detected");
     }
@@ -71,14 +76,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h3 class="panel-title"><?php echo $config->get('fields.panel-title'); ?></h3>
             </div>
             <div class="panel-body">
-                <?php if (!empty($emailSent)): ?>
+                <?php if (!empty($emailSent) && $captchaResult == $checkTotal): ?>
                 <div class="col-md-8 col-md-offset-2">
                     <div class="alert alert-success text-center">
                         <?php echo $config->get('messages.success'); ?>
                     </div>
+                    <a href="contato.php">Voltar a página anterior</a>
                 </div>
                 <?php else: ?>
-                <?php if (!empty($hasError)): ?>
+                <?php if (!empty($hasError) && $captchaResult == $checkTotal): ?>
                 <div class="col-md-8 col-md-offset-2">
                     <div class="alert alert-danger text-center">
                         <?php echo $config->get('messages.error'); ?>
@@ -117,6 +123,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class="col-lg-10">
                                 <textarea class="form-control" rows="5" id="form-message" style="resize:none" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
                             </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-captcha-result" class="col-lg-2 control-label">Resolva o captcha:</label>
+                            <?php
+	                           $min_number = 1;
+	                            $max_number = 10;
+
+	                            $random_number1 = mt_rand($min_number, $max_number);
+	                            $random_number2 = mt_rand($min_number, $max_number);
+                            ?>
+                            <div class="col-lg-10" style="display: flex;">
+                                <p style="margin: 15px 5px 0px 0px;"><?php echo $random_number1 . ' + ' . $random_number2 . ' = '; ?></p>
+                                <input style="width: 120px;margin-top: 10px;" name="form-captcha-result" class="form-control" type="text" style="width: 120px;" required>
+                            </div>
+
+                            <input name="firstNumber" type="hidden" value="<?php echo $random_number1; ?>" />
+		                    <input name="secondNumber" type="hidden" value="<?php echo $random_number2; ?>" />
+
                         </div>
                         <div class="form-group">
                             <div class="col-lg-offset-5 col-lg-10 col-sm-offset-5">
