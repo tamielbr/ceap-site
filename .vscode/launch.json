@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+            "name": "Debug JS on Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://ceap-site.dev/site/contato.php",
+            "webRoot": "${workspaceRoot}/site"
+        },
+        {
+            "name": "Listen for PHP XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9080
+        },
+        {
+            "name": "Launch currently PHP open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9080
+        }
+    ]
+}

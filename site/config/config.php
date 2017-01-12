@@ -21,5 +21,6 @@ return [
         'btn-send' => 'Enviar',
         'btn-clean' => 'Limpar',
         'panel-title' => 'Contato',
+        'captcha-title' => 'Resolva o captcha',
     ]
 ];

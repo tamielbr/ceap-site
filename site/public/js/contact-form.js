@@ -60,6 +60,8 @@
                         email    = document.querySelector('#form-email'),
                         subject  = document.querySelector('#form-subject'),
                         message  = document.querySelector('#form-message'),
+                        captchaResult  = document.querySelector('#form-captcha-result'),
+
                         // @from: https://html.spec.whatwg.org/multipage/forms.html#e-mail-state-(type=email)
                         testmail = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
@@ -81,6 +83,11 @@
                     if (message.value === '') {
                         hasError = true;
                         this.addError(message);
+                    }
+
+                    if(captchaResult.value === '') {
+                        hasError = true;
+                        this.addError(captchaResult);
                     }
 
                     if (hasError === false) {
