@@ -10,7 +10,8 @@ return [
     ],
     'messages' => [
         'error'   => 'Por favor, verifique se você preencheu todos os campos.',
-        'success' => 'Sua mensagem foi enviada com sucesso.'
+        'success' => 'Sua mensagem foi enviada com sucesso.',
+        'captcha-error' => 'O valor da conta está errado!',
     ],
     'fields' => [
         'name'     => 'Nome',
@@ -21,6 +22,6 @@ return [
         'btn-send' => 'Enviar',
         'btn-clean' => 'Limpar',
         'panel-title' => 'Contato',
-        'captcha-title' => 'Resolva o captcha',
+        'captcha-title' => 'Resolva',
     ]
 ];

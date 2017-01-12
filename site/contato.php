@@ -93,39 +93,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <?php endif; ?>
 
                 <div class="col-md-8 col-md-offset-2">
-                    <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">
+                    <p>
+                        Caso queira entrar em contato conosco, preencha o formulário com as informações abaixo.
+                        <br>
+                        <i>(Os campos marcados com * são obrigatórios.)</i>
+                    </p>
+                </div>
+
+                <div class="col-md-8 col-md-offset-2">
+                    <form novalidate action="<?php echo $_SERVER['REQUEST_URI']; ?>" enctype="application/x-www-form-urlencoded" id="contact-form" class="form-horizontal" method="post">
                         <div class="form-group">
-                            <label for="form-name" class="col-lg-2 control-label"><?php echo $config->get('fields.name'); ?>*</label>
+                            <label for="form-name" class="col-lg-2 control-label"><?php echo $config->get('fields.name'); ?> (*):</label>
                             <div class="col-lg-10">
                                 <input type="text" class="form-control" id="form-name" name="form-name" placeholder="<?php echo $config->get('fields.name'); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form-email" class="col-lg-2 control-label"><?php echo $config->get('fields.email'); ?>*</label>
+                            <label for="form-email" class="col-lg-2 control-label"><?php echo $config->get('fields.email'); ?> (*):</label>
                             <div class="col-lg-10">
                                 <input type="email" class="form-control" id="form-email" name="form-email" placeholder="<?php echo $config->get('fields.email'); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form-phone" class="col-lg-2 control-label"><?php echo $config->get('fields.phone'); ?></label>
+                            <label for="form-phone" class="col-lg-2 control-label"><?php echo $config->get('fields.phone'); ?> :</label>
                             <div class="col-lg-10">
                                 <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="<?php echo $config->get('fields.phone'); ?>">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form-subject" class="col-lg-2 control-label"><?php echo $config->get('fields.subject'); ?>*</label>
+                            <label for="form-subject" class="col-lg-2 control-label"><?php echo $config->get('fields.subject'); ?> (*):</label>
                             <div class="col-lg-10">
                                 <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="<?php echo $config->get('fields.subject'); ?>" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form-message" class="col-lg-2 control-label"><?php echo $config->get('fields.message'); ?>*</label>
+                            <label for="form-message" class="col-lg-2 control-label"><?php echo $config->get('fields.message'); ?> (*):</label>
                             <div class="col-lg-10">
-                                <textarea class="form-control" rows="5" id="form-message" style="resize:none" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>"></textarea>
+                                <textarea class="form-control" rows="5" id="form-message" style="resize:none" name="form-message" placeholder="<?php echo $config->get('fields.message'); ?>" required></textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="form-captcha-result" class="col-lg-2 control-label"><?php echo $config->get('fields.captcha-title'); ?>*</label>
+                            <label for="form-captcha-result" class="col-lg-2 control-label"><?php echo $config->get('fields.captcha-title'); ?> (*):</label>
                             <?php
                                 $min_number = 1;
                                 $max_number = 10;
@@ -134,8 +142,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 $random_number2 = mt_rand($min_number, $max_number);
                             ?>
                             <div class="col-lg-10" style="display: flex;">
-                                <p style="margin: 15px 5px 0px 0px;"><?php echo $random_number1 . ' + ' . $random_number2 . ' = '; ?></p>
-                                <input style="width: 120px;margin-top: 10px;" id="form-captcha-result" name="form-captcha-result" class="form-control" type="text" style="width: 120px;" required>
+                                <p style="margin: 15px 5px 10px 5px;"><?php echo $random_number1 . ' + ' . $random_number2 . ' = '; ?></p>
+                                <input style="width: 80px;margin: 10px;" id="form-captcha-result" name="form-captcha-result" class="form-control" type="text" style="width: 120px;" required>
+                                <p id="form-captcha-error" class="hidden-error has-error" style="color:#a94442; margin: 15px 5px 10px 5px;"><?php echo $config->get('messages.captcha-error'); ?></p>
                             </div>
 
                             <input id="form-first-number" name="form-first-number" type="hidden" value="<?php echo $random_number1; ?>" />
