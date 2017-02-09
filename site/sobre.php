@@ -20,7 +20,7 @@ require './navbar.php';
                     <p>Para saber mais, leia um <a href="ceap_sobre_curto.pdf" target="_blank">breve artigo sobre o Projeto CEAP.</a></p>
 
                     <h2>Bibliografia Aberta</h2>
-                    <p>Mantemos uma bibliografia aberta sobre avaliação participativa, clima escolar e temas correlatos que é utilizada em nosso grupo de discussão mensal. <a href"https://www.zotero.org/groups/clima_escolar/items"  target="_blank">Confira a nossa lista atual no Zotero.</a></p>
+                    <p>Mantemos uma bibliografia aberta sobre avaliação participativa, clima escolar e temas correlatos que é utilizada em nosso grupo de discussão mensal. <a href="https://www.zotero.org/groups/clima_escolar/items"  target="_blank">Confira a nossa lista atual no Zotero.</a></p>
                     
                     <h2>Equipe</h2>
                     <ul>
