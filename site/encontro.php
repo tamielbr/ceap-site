@@ -38,8 +38,9 @@ require './navbar.php';
 
 	<h2>Data</h2> 29 de junho de 2017, quinta-feira, 08:45-18:00 (com intervalo para café e almoço)
 	<h2>Local</h2> Prédio novo do Instituto da Computação (<b>IC 3.5</b>) - Sala 353 – Unicamp.<br><br>
-	<iframe width="700" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-47.065483331680305%2C-22.814619828999085%2C-47.062586545944214%2C-22.81248368944337&amp;layer=mapnik" style="border: 1px solid black"></iframe></br>
-	Veja um mapa maior no <a href="http://www.openstreetmap.org/#map=19/-22.81355/-47.06403">Open Street Maps</a> ou um <a href="https://goo.gl/maps/4E8JGwuob6m">mapa no Google</a>.
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d612.5799324642318!2d-47.06433275416225!3d-22.813636689455524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aa3c51e3317b873!2sInstituto+de+Computa%C3%A7%C3%A3o+-+IC+3+%2F+3.5+-+Unicamp!5e0!3m2!1sen!2sbr!4v1497474107337" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</br>
+	Veja um mapa maior no <a target="_blank" href="http://www.openstreetmap.org/#map=19/-22.81355/-47.06403">Open Street Maps</a> ou um <a target="_blank" href="https://goo.gl/maps/4E8JGwuob6m">mapa no Google</a>.
 
 	<h2>Sobre o evento</h2>
 	<p>O Clima Escolar pode ser definido como os “...sentimentos e atitudes que são trazidos à tona pelo ambiente escolar” (Loukas, 2007). Sabemos que a percepção de cada ente escolar sobre o ambiente escolar tem grande impacto em como cada qual constitui sua relação com a escola. Já há um certo consenso sobre os fatores que o impactam o clima, e diferentes abordagens e modelos existem para mensurá-lo. Porém ainda carecemos de modelos e processos práticos que podem ser usados para a transformação do clima da escola com base nesses dados.</p>
