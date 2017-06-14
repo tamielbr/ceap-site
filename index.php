@@ -35,7 +35,7 @@
                     <h1>Encontro CEAP 2017</h1>
                 </div>
                 <div class="col-md-12 col-sm-12" style="display: flex;align-items: center;justify-content: center;margin-bottom: 10px;">
-                    <p><a class="btn btn-primary btn-lg" href="site/encontro.html" role="button">Saiba mais</a></p>
+                    <p><a class="btn btn-primary btn-lg" href="site/encontro.php" role="button">Saiba mais</a></p>
                 </div>
             </div>
         </div>
