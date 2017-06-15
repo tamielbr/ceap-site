@@ -2,11 +2,11 @@
 
 return [
     'subject' => [
-        'prefix' => '[CEAP Site]'
+        'prefix' => '[Contato Site CEAP]'
     ],
     'emails' => [
-        'to'   => 'ardaai@hotmail.com',
-        'from' => 'teste@casnweb.dev'
+        'to'   => 'tamiel@unicamp.br',
+        'from' => 'contato-site@ceap.nied.unicamp.br'
     ],
     'messages' => [
         'error'   => 'Por favor, verifique se você preencheu todos os campos.',
