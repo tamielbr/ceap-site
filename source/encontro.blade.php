@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-6">
             <div class="embed-responsive embed-responsive-4by3">
-                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-47.06489592790604%2C-22.814370119970008%2C-47.06307202577592%2C-22.81271115034155&amp;layer=mapnik&amp;marker=-22.813540637681427%2C-47.06398397684097" style="border: 1px solid black"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d919.4238649640226!2d-47.0637097!3d-22.8137457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aa3c51e3317b873!2sInstituto+de+Computa%C3%A7%C3%A3o+-+IC+3+%2F+3.5+-+Unicamp!5e0!3m2!1spt-BR!2sbr!4v1497540596189" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
             Veja um mapa maior no <a href="https://www.openstreetmap.org/?mlat=-22.81352&mlon=-47.06398#map=19/-22.81352/-47.06398">Open Street Maps</a>            ou um <a href="https://goo.gl/maps/4E8JGwuob6m">mapa no Google</a>.
         </div>
