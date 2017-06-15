@@ -17,7 +17,7 @@
                         escolar.</p>
                     <p>Envolvemos todos os atores na discussão e apreciação dos dados para definições de metas e ações para a escola. Como parte do projeto, desenvolvemos material formação, registro e tomada de decisões, bem como um sistema de software para
                         gestão desses processos.</p>
-                    <p>Para saber mais, leia um <a href="{{ $page->getUrl().'ceap_sobre_curto.pdf' }}" target="_blank">breve artigo sobre o Projeto CEAP.</a></p>
+                    <p>Para saber mais, leia um <a href="{{ $page->baseUrl.'/ceap_sobre_curto.pdf' }}" target="_blank">breve artigo sobre o Projeto CEAP.</a></p>
 
                     <h2>Bibliografia Aberta</h2>
                     <p>Mantemos uma bibliografia aberta sobre avaliação participativa, clima escolar e temas correlatos que é utilizada em nosso grupo de discussão mensal. <a href="https://www.zotero.org/groups/clima_escolar/items"  target="_blank">Confira a nossa lista atual no Zotero.</a></p>

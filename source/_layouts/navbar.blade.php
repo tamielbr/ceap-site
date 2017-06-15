@@ -1,8 +1,8 @@
 
 <nav class="navbar navbar-default" style="margin-bottom: 0px;">
-        <a class="navbar-brand" href="{{ $page->getURL() }}">
+        <a class="navbar-brand" href="{{ $page->baseUrl }}">
             <span>
-                <img alt="Logotipo" src="img/logo_escolas.png" class="logo-navbar">
+                <img alt="Logotipo" src="{{ $page->baseUrl.'/img/logo_escolas.png' }}" class="logo-navbar">
                 Projeto CEAP
             </span>
         </a>
@@ -23,9 +23,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="extern-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ $page->getURL().'sistemas' }}">Sistemas</a></li>
-                    <li><a href="{{ $page->getURL().'sobre' }}">Sobre o projeto</a></li>
-                    <li><a href="{{ $page->getURL().'contato.php' }}">Contato</a></li>
+                    <li><a href="{{ $page->baseUrl.'/sistemas' }}">Sistemas</a></li>
+                    <li><a href="{{ $page->baseUrl.'/sobre' }}">Sobre o projeto</a></li>
+                    <li><a href="{{ $page->baseUrl.'/contato.php' }}">Contato</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

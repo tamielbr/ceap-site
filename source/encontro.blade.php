@@ -11,7 +11,7 @@
     <div class="row featurette">
         <div class="col-md-6">
             <h3>Iniciativa</h3>
-            <a href="{{ $page->getURL() }}">Projeto CEAP</a>: Promovendo Condições de Ensino, Aprendizagem e Participação
+            <a href="{{ $page->baseUrl }}">Projeto CEAP</a>: Promovendo Condições de Ensino, Aprendizagem e Participação
             (FAPESP)
 
             <h3>Organização</h3>
