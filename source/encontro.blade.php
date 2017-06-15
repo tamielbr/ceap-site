@@ -1,7 +1,7 @@
 @extends ('_layouts.master')
 
 @section('body')
-<div class="jumbotron" style="background: #1f4e5f;color: white;">
+<div class="jumbotron" style="background: #23A493;color: white;">
     <div class="container">
         <h2 style="text-align: center">Encontro CEAP: Estabelecendo Diálogos entre Clima escolar, <br>Assembleias estudantis e Justiça restaurativa</h2>
     </div>
