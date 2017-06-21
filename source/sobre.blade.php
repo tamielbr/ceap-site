@@ -22,12 +22,21 @@
                     <h2>Bibliografia Aberta</h2>
                     <p>Mantemos uma bibliografia aberta sobre avaliação participativa, clima escolar e temas correlatos que é utilizada em nosso grupo de discussão mensal. <a href="https://www.zotero.org/groups/clima_escolar/items"  target="_blank">Confira a nossa lista atual no Zotero.</a></p>
 
+                    <h2>Código Aberto</h2>
+                    <p>Os sistemas desenvolvidos em código aberto para o projeto estão disponíveis nos links a seguir:</p>
+                    <ul>
+                        <li><a href="https://github.com/glaubersp/CEAP" target="_blank">Sistema de Acompanhamento de Ações Escolares</a></li>
+                        <li><a href="https://github.com/glaubersp/CEAPTetraReport" target="_blank">Gerador de relatórios do TetraAnalytix para o projeto</a></li>
+                        <li><a href="https://github.com/glaubersp/CEAPAtlasReport" target="_blank">Gerador de relatórios do Atlas.TI para o projeto</a></li>
+                        <li><a href="https://github.com/glaubersp/planejamento_GAS" target="_blank">Protótipo de Gerador de Planejamento Escolar</a></li>
+                    </ul>
+
                     <h2>Equipe</h2>
                     <ul>
                         <li>Pesq. Dr. Tel Amiel - Pesquisador do Núcleo de Informática Aplicada à Educação <a href="http://lattes.cnpq.br/0246540741711761" target="_blank">(Plataforma Lattes)</a></li>
                         <li>Me. Wilmara Alves Thomaz - Professora da Rede Estadual de São Paulo e Bolsista FAPESP <a href="http://lattes.cnpq.br/8509146425967503"  target="_blank">(Plataforma Lattes)</a></li>
                         <li>Me. Dulcinéia Aparecida Ribeiro - Professora da Rede Municipal de Campinas, Diretora Escolar da Rede Estadual de São Paulo e Bolsista FAPESP <a href="http://lattes.cnpq.br/7719673938922296"  target="_blank">(Plataforma Lattes)</a></li>
-                        <li>Me. Glauber Modolo Cabral (Bolsista FAPESP) <a href="http://lattes.cnpq.br/1756949876810254"  target="_blank">(Plataforma Lattes)</a></li></li>
+                        <li>Me. Glauber Modolo Cabral (Bolsista FAPESP) <a href="http://lattes.cnpq.br/1756949876810254"  target="_blank">(Plataforma Lattes)</a></li>
                         <li>Cícero Alex (Colaborador) <a href="http://lattes.cnpq.br/2841026863780814"  target="_blank">(Plataforma Lattes)</a></li></li>
                     </ul>
 

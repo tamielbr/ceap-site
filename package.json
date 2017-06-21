@@ -8,6 +8,6 @@
     "yargs": "^4.6.0"
   },
   "scripts": {
-    "deploy": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build nied && cp -R ./build_ceap/site /var/www/html"
+    "deploy": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build ceap && cp -R ./build_ceap/site /var/www/html"
   }
 }
