@@ -105,9 +105,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="extern-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/sistemas">Sistemas</a></li>
-                    <li><a href="/sobre">Sobre o projeto</a></li>
-                    <li><a href="contato.php">Contato</a></li>
+                    <li><a href="/site/sistemas">Sistemas</a></li>
+                    <li><a href="/site/sobre">Sobre o projeto</a></li>
+                    <li><a href="/site/contato.php">Contato</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
