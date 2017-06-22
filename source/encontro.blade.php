@@ -205,10 +205,10 @@ Secretária
                     <p>A experiência com assembléias estudantis na EMEF Maria Pavanatti</p>
                 </td>
                 <td width="345" bgcolor="#eeeeee" style="background: #eeeeee" style="border: 1px solid #000001; padding-top: 0.05cm; padding-bottom: 0.1cm; padding-left: 0.03cm; padding-right: 0.05cm">
-                    <p>Alexandra Molina e colegas
+                    <p>Ana Flávia Wuff
                         <br/>
-                        <i>Coordenadora,
-			EE Maria Pavanatti</i></p>
+                        <i>EMEF Maria Pavanatti</i>
+                    </p>
                 </td>
             </tr>
             <tr valign="top">
