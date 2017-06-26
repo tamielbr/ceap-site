@@ -10,7 +10,7 @@
             <div class="thumbnail">
                 <img src="{{ $page->baseUrl.'/img/logo_escolas.png' }}" alt="Logo Monitor de Clima CEAP" style="width: 99px;">
                 <div class="caption">
-                    <h3>Monitor de Clima CEAP</h3>
+                    <h3>Acompanhamento de Ações Escolares</h3>
                     <p><a href="https://ceap.nied.unicamp.br/ceap" class="btn btn-primary" role="button">Acessar</a></p>
                 </div>
             </div>
