@@ -205,7 +205,7 @@ Secretária
                     <p>A experiência com assembléias estudantis na EMEF Maria Pavanatti</p>
                 </td>
                 <td width="345" bgcolor="#eeeeee" style="background: #eeeeee" style="border: 1px solid #000001; padding-top: 0.05cm; padding-bottom: 0.1cm; padding-left: 0.03cm; padding-right: 0.05cm">
-                    <p>Ana Flávia Wuff
+                    <p>Ana Flávia Wulf
                         <br/>
                         <i>EMEF Maria Pavanatti</i>
                     </p>
