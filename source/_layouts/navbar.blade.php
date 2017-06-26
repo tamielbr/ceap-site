@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-default" style="margin-bottom: 0px;">
+<nav class="navbar navbar-default">
         <a class="navbar-brand" href="{{ $page->baseUrl }}">
             <span>
                 <img alt="Logotipo" src="{{ $page->baseUrl.'/img/logo_escolas.png' }}" class="logo-navbar">
