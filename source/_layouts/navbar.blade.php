@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-default">
-        <a class="navbar-brand" href="{{ $page->baseUrl }}">
+        <a class="navbar-brand" href="{{ $page->baseURL . '/' }}">
             <span>
                 <img alt="Logotipo" src="{{ $page->baseUrl.'/img/logo_escolas.png' }}" class="logo-navbar">
                 Projeto CEAP
