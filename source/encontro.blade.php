@@ -9,7 +9,7 @@
 </div>
 
 <div class="alert alert-success alert-encontro" role="alert">
-    As apresentações das palestras já estão disponíveis na <a href="#agenda">Agenda</a>.
+    As apresentações das palestras e as entrevistas com os convidados já estão disponíveis na <a href="#agenda">Agenda</a>.
 </div>
 
 <div class="container">
@@ -75,6 +75,9 @@
             Unicamp.
             <b>Certificados</b> serão oferecidos aos participantes.
         </p>
+        
+        <h4>Assista às entrevistas com os convidados no site <a target="_blank" href="http://cameraweb.ccuec.unicamp.br/view_group_videos.php?url=encontroCEAPvideos">CameraWeb Unicamp.</a></h4>
+        
         <table class="table table-bordered table-striped">
             <tr>
                 <td class="horario center">
@@ -108,8 +111,6 @@
                         Palestra: Justiça restaurativa
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Palestra-Justica_Restaurativa.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
@@ -131,8 +132,6 @@
                         A experiência com justiça restaurativa na EE Benedito Sampaio
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Escola-Benedito.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
@@ -168,8 +167,6 @@
                         Palestra: O Clima Escolar
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Palestra-Projeto_CEAP.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
@@ -195,8 +192,6 @@
                         Projeto CEAP: monitoramento e ciclos de ações para melhoria do clima escolar
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Escola-Francisco.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
@@ -232,8 +227,6 @@
                         Palestra: Assembléias estudantis
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Palestra-Assembleias_Escolares.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
@@ -255,8 +248,6 @@
                         A experiência com assembléias estudantis na EMEF Maria Pavanatti
                         <br/>
                         <a target="_blank" href="{{ $page->baseUrl .'/encontro_2017/Escola-Pavanatti.pdf' }}"><span class="glyphicon glyphicon-save"></span>Salvar slides</a>
-                        <br>
-                        <span class="glyphicon glyphicon-film"></span><i>Vídeo disponível em breve.</i>
                     </p>
                 </td>
                 <td>
