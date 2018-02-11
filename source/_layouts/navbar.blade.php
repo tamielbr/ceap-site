@@ -23,7 +23,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="extern-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ $page->baseUrl.'/sistemas' }}">SAE</a></li>
+                    <!-- <li><a href="{{ $page->baseUrl.'/sistemas' }}">SAE</a></li> -->
                     <li><a href="{{ $page->baseUrl.'/sobre' }}">Sobre</a></li>
                     <li><a href="{{ $page->baseUrl.'/contato.php' }}">Contato</a></li>
                 </ul>
