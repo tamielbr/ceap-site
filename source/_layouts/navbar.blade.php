@@ -3,7 +3,7 @@
         <a class="navbar-brand" href="{{ $page->baseURL . '/' }}">
             <span>
                 <img alt="Logotipo" src="{{ $page->baseUrl.'/img/logo_escolas.png' }}" class="logo-navbar">
-                Projeto CEAP
+                VOLUTA
             </span>
         </a>
         <div class="container-fluid">
@@ -23,8 +23,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="extern-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ $page->baseUrl.'/sistemas' }}">Sistemas</a></li>
-                    <li><a href="{{ $page->baseUrl.'/sobre' }}">Sobre o projeto</a></li>
+                    <li><a href="{{ $page->baseUrl.'/sistemas' }}">SAE</a></li>
+                    <li><a href="{{ $page->baseUrl.'/sobre' }}">Sobre</a></li>
                     <li><a href="{{ $page->baseUrl.'/contato.php' }}">Contato</a></li>
                 </ul>
             </div>

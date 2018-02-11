@@ -1,16 +1,17 @@
 {
-  "private": true,
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "hasbin": "^1.2.3",
-    "laravel-elixir": "^6.0.0-15",
-    "laravel-elixir-browsersync-official": "^1.0.0",
-    "node-sass": "^4.5.3",
-    "yargs": "^8.0.1"
-  },
-  "scripts": {
-    "deploy": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build ceap && cp -R ./build_ceap/site /var/www/html",
-    "compress": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build ceap && tar -czf ceap_site.tar.gz  -C ./build_ceap site",
-    "test": "./node_modules/gulp/bin/gulp.js && ./vendor/bin/jigsaw build"
-  }
+    "private": true,
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "hasbin": "^1.2.3",
+        "laravel-elixir": "^6.0.0-17",
+        "laravel-elixir-browsersync-official": "^1.0.0",
+        "node-sass": "^4.7.2",
+        "yargs": "^11.0.0"
+    },
+    "scripts": {
+        "deploy-nied": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build ceap && cp -R ./build_ceap/site /var/www/html",
+        "compress-nied": "./node_modules/gulp/bin/gulp.js --env=ceap && ./vendor/bin/jigsaw build ceap && tar -czf ceap_site.tar.gz  -C ./build_ceap site",
+        "compress-voluta": "./node_modules/gulp/bin/gulp.js --env=voluta && ./vendor/bin/jigsaw build voluta && tar -czf voluta.tar.gz  -C ./build_voluta site",
+        "test": "./node_modules/gulp/bin/gulp.js && ./vendor/bin/jigsaw build"
+    }
 }
